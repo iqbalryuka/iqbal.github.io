@@ -69,7 +69,7 @@ Ketiga model memiliki ROC-AUC yang sebanding (±0,84). Dengan menurunkan thresho
 
 ## Struktur Folder
 ```
-prediksi-churn-pelanggan/
+iqbal.github.io/
 ├── data/
 │   └── telco_customer_churn.csv     # dataset mentah
 ├── notebooks/
@@ -86,7 +86,8 @@ prediksi-churn-pelanggan/
 
 ## Cara Menjalankan
 ```bash
-cd projects/prediksi-churn-pelanggan
+git clone https://github.com/iqbalryuka/iqbal.github.io.git
+cd iqbal.github.io
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
