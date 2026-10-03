@@ -1,0 +1,66 @@
+{
+  "n_rows": 7043,
+  "churn_rate": 0.2653698707936959,
+  "best_model": "Gradient Boosting",
+  "cross_validation": [
+    {
+      "Model": "Gradient Boosting",
+      "ROC-AUC": 0.8477,
+      "ROC-AUC (std)": 0.0111,
+      "F1": 0.5833,
+      "Recall": 0.5224,
+      "Precision": 0.6612
+    },
+    {
+      "Model": "Logistic Regression",
+      "ROC-AUC": 0.8458,
+      "ROC-AUC (std)": 0.0113,
+      "F1": 0.6275,
+      "Recall": 0.796,
+      "Precision": 0.5181
+    },
+    {
+      "Model": "Random Forest",
+      "ROC-AUC": 0.8456,
+      "ROC-AUC (std)": 0.0096,
+      "F1": 0.6313,
+      "Recall": 0.7652,
+      "Precision": 0.5374
+    }
+  ],
+  "test_metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.7331,
+      "precision": 0.4983,
+      "recall": 0.7914,
+      "f1": 0.6116,
+      "roc_auc": 0.8421
+    },
+    "Random Forest": {
+      "accuracy": 0.7615,
+      "precision": 0.5349,
+      "recall": 0.7781,
+      "f1": 0.634,
+      "roc_auc": 0.8418
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.8041,
+      "precision": 0.6738,
+      "recall": 0.508,
+      "f1": 0.5793,
+      "roc_auc": 0.8432
+    }
+  },
+  "top_features": {
+    "Contract": 0.0803,
+    "tenure": 0.0423,
+    "MonthlyCharges": 0.0095,
+    "InternetService": 0.0087,
+    "TotalCharges": 0.0084,
+    "AvgChargePerMonth": 0.0063,
+    "OnlineSecurity": 0.0063,
+    "TechSupport": 0.0055,
+    "PaymentMethod": 0.003,
+    "MultipleLines": 0.0024
+  }
+}
